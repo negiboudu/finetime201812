@@ -1,0 +1,25 @@
+.datatable,
+.datatable tr,
+.datatable tr td {
+    border-style: solid;
+    border-color:chocolate;
+    border-width: thin;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.datatable td {
+    width: 5em;
+}
+
+.titlerow {
+    background-color:burlywood;
+}
+
+.datarow {
+    background-color:cornsilk;
+}
+
+.scoretd {
+    background-color:fuchsia;
+}

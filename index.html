@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>解答ページ</title>
+    <link rel="stylesheet" type="text/css" href="./index.css?v1">
+
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/5.5.9/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/5.5.9/firebase-database.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script defer src="/__/firebase/init.js"></script>
+
+  </head>
+  <body>
+    <div id="loginform">
+      <span>おなまえ</span>
+      <input id="nickname" type="text" value="" />
+      <button id="startbutton" type="button">解答開始</button>
+    </div>
+    <div id="buttons" class="nodisp">
+      <button id="A" type="button" class="answerbutton" value="A">Ａ</button><br>
+      <button id="B" type="button" class="answerbutton" value="B">Ｂ</button><br>
+      <button id="C" type="button" class="answerbutton" value="C">Ｃ</button><br>
+      <button id="D" type="button" class="answerbutton" value="D">Ｄ</button><br>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase.js"></script>
+    <script src="./index.js?v1"></script>
+  </body>
+</html>

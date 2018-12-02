@@ -1,0 +1,12 @@
+.answerbutton {
+    width: 1.8em;
+    height: 1.8em;
+    border-radius: 20px;
+    color:firebrick;
+    background-color: lightcoral;
+    font-size: 2em;
+}
+
+.nodisp {
+    display: none;
+}
